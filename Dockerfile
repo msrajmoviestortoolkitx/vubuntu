@@ -17,7 +17,7 @@ ENV	VNC_PASS="samplepass" \
 #NoVNC Port
 	NOVNC_PORT=$PORT \
 #Ngrok Token (Strictly use private token if using the service)
-	NGROK_AUTH_TOKEN="1xkvXmIjoZen5hmpEYiNc7kvYxB_6fHaQ5hwERyKEfS5hMoJm" \
+	NGROK_AUTH_TOKEN="1zLx08cUsPO7WNWQPvAST22ftTK_6Xw1Sowciy7yYdzndhe87" \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
