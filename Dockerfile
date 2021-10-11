@@ -101,6 +101,8 @@ RUN rm -f /etc/apt/sources.list && \
 #TimeZone
 	ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
 	echo $TZ > /etc/timezone && \
+#qbittorrent
+	apt-get install -y qbittorrent && \
 #VS Code
 	wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg && \
 	install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/ && \
