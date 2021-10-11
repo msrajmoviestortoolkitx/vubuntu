@@ -92,9 +92,9 @@ RUN rm -f /etc/apt/sources.list && \
 #Websockify
 	npm i websockify && \
 #MATE Desktop
-	#apt-get install -y \ 
-	#ubuntu-mate-core \
-	#ubuntu-mate-desktop && \
+	apt-get install -y \ 
+	ubuntu-mate-core \
+	ubuntu-mate-desktop && \
 #XFCE Desktop
 	apt-get install -y \
 	xubuntu-desktop && \
