@@ -96,8 +96,8 @@ RUN rm -f /etc/apt/sources.list && \
 	#ubuntu-mate-core \
 	#ubuntu-mate-desktop && \
 #XFCE Desktop
-	#apt-get install -y \
-	#xubuntu-desktop && \
+	apt-get install -y \
+	xubuntu-desktop && \
 #TimeZone
 	ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
 	echo $TZ > /etc/timezone && \
